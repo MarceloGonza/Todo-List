@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.current {
+  @apply font-medium text-white border-b-2 border-red-400;
+}
