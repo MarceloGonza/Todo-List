@@ -4,3 +4,27 @@
   padding: 2rem;
   text-align: center;
 }
+
+.checkbox {
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  background-color: #484f58;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.checkbox:checked {
+  background-color: #343a3f;
+}
+
+.checkbox:checked::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url(./check.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  padding: 5px;
+  display: block;
+}
